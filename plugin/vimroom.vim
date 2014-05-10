@@ -263,6 +263,6 @@ noremap <silent> <Plug>VimroomToggle    :call <SID>VimroomToggle()<CR>
 command -nargs=0 VimroomToggle call <SID>VimroomToggle()
 
 " If no mapping exists, map it to `<Leader>V`.
-if !hasmapto( '<Plug>VimroomToggle' )
-    nmap <silent> <Leader>V <Plug>VimroomToggle
-endif
+"if !hasmapto( '<Plug>VimroomToggle' )
+    "nmap <silent> <Leader>V <Plug>VimroomToggle
+"endif
