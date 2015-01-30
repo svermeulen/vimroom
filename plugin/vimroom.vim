@@ -210,7 +210,7 @@ function! <SID>VimroomToggle()
             endif
             " Setup wrapping, line breaking, and push the cursor down
             set wrap
-            set linebreak
+            "set linebreak
             if g:vimroom_clear_line_numbers
                 set nonumber
                 silent! set norelativenumber
